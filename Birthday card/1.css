@@ -1,0 +1,65 @@
+.lizi {
+    border-radius: 70%;
+    width: 150px;
+    border: 5px solid #f5977a;
+}
+
+body {
+    
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    text-shadow: 3px 3px 3px black;
+    background: linear-gradient(#f38fda, #a2d2ff);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#age
+{
+    background: #f5977a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+ #date {
+    margin: 0;
+    background: #f5977a;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift {
+    margin-top: 50px;
+}
+
+.cover {
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift-cover.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.cover:hover {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHlndmkwNmZoNm44bzM0MXNtcmw2NnpkdmpzamdrOWw5Y3V2ZGF6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11sBLVxNs7v6WA/giphy.gif");
+    background-size: cover;
+}
+
+
+.title {
+    margin-bottom: 10px;
+}
+
+.hint {
+    margin-top: 0;
+}
