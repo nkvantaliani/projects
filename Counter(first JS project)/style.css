@@ -1,0 +1,29 @@
+.main {
+    margin: 100px;
+}
+
+#label {
+    display: block;
+    font-size: 120px;
+    text-align: center;
+}
+
+#BTNdiv {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: pink;
+    color: white;
+    border: 1px solid black;
+    transition: background-color 1.5s;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(245, 122, 142);
+}
